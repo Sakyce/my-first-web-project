@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* header */
+
+.header {
+  /* Layout Properties */
+  top: 1vh;
+  left: 5%;
+  width: 100%;
+  height: 35px;
+
+  /* UI Properties */
+  opacity: 1;
+  display: flex;
+
+  /*background-color: aquamarine;*/
+}
+
+.header-icon {
+  left: 0px;
+  top: 36px;
+  width: 98px;
+  height: 35px;
+
+  opacity: 1;
+}
+
+.right {
+  margin-left: auto;
+  float: right;
+}
+
+.left {
+  margin-left: auto;
+  display: flex;
+}
+
+button {
+  display: flexbox;
+  width: 151px;
+  height: 100%;
+  padding: 0%;
+
+  text-align: center;
+  vertical-align: middle;
+
+  border-radius: 50px;
+  background-color: black;
+  color:white;
+  border:none;
+
+  cursor: pointer;
+  transition-duration: 500ms;
+  transition-property: box-shadow;
+}
+button:hover {
+  box-shadow: 0px 0px 10px black;
+}
+
+.phonenumber {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: 0.5in;
+
+  height: 100%;
+  
+  display: inline-block;
+  vertical-align: sub;
+  
+  text-align: center;
+}
+
+.center {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.flexbox li {
+  list-style: none;
+  height: 300px;
+  text-align: center;
+  vertical-align: sub;
+}
+
+.carouselcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.carouselimage {
+  cursor: pointer;
+  margin-left: 0;
+  margin-right: 0;
+  transform: translateX(100%);
+  opacity: 100%;
+}
